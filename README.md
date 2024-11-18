@@ -28,7 +28,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/antomfdez/RiverDots/blob/main/repo-assets/logo">
+  <a href="https://github.com/antomfdez/RiverDots/tree/main/repo-assets/logo">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -38,7 +38,7 @@
     An awesome dotfiles to get a fast and customizable river compositor setup!
     <br />
     <br />
-    <a href="https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot">View Demo</a>
+    <a href="https://github.com/antomfdez/RiverDots/tree/main/repo-assets/screenshot">View Demo</a>
     ·
     <a href="https://github.com/antomfdez/RiverDots/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
@@ -73,11 +73,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Screen Shot](https://github/antomfdez/RiverDots/blob/main/repo-assets/screenshot)
+[Screen Shot](https://github/antomfdez/RiverDots/tree/main/repo-assets/screenshot)
 <br>
-[Screen Shot2](https://github/antomfdez/RiverDots/blob/main/repo-assets/screenshot2)
+[Screen Shot2](https://github/antomfdez/RiverDots/tree/main/repo-assets/screenshot2)
 <br>
-[Screen Shot3](https://github/antomfdez/RiverDots/blob/main/repo-assets/screenshot3)
+[Screen Shot3](https://github/antomfdez/RiverDots/tree/main/repo-assets/screenshot3)
 <br>
 
 Level up your dev setup with my custom dotfiles and easy-to-use installer. Save time, stay organized, and boost your productivity. Give your workflow the upgrade it deserves!
