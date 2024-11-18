@@ -203,5 +203,5 @@ Project Link: [https://github.com/antomfdez/RiverDots](https://github.com/antomf
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/antomfdez/RiverDots/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/antomfdez/RiverDots/blob/master/LICENSE
+[license-url]: https://github.com/antomfdez/RiverDots/blob/main/LICENSE
 [product-screenshot]: repo-assets/screenshot.png
