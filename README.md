@@ -104,7 +104,7 @@ _Run the `install.sh` in a fresh Arch Linux install._ (Connect to internet first
     ```bash
     git clone https://github.com/antomfdez/RiverDots.git
     ```
-2. Move to RiveDots directory:
+2. Move to RiverDots directory:
     ```bash
     cd RiverDots
     ```
