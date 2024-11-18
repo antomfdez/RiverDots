@@ -75,7 +75,7 @@
 
 [Screen Shot](https://github/antomfdez/RiverDots/blob/main/repo-assets/screenshot.jpg)
 <br>
-[Screen Shot2](https://github/antomfdez/RiverDots/blob/main/repo-assets/screenshot.jpg)
+[Screen Shot2](https://github/antomfdez/RiverDots/blob/main/repo-assets/screenshot2.jpg)
 <br>
 [Screen Shot3](https://github/antomfdez/RiverDots/blob/main/repo-assets/screenshot3.jpg)
 <br>
