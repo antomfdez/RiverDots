@@ -29,7 +29,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/antomfdez/RiverDots/blob/main/repo-assets/logo.jpg">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="repo-assets/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">RiverDots</h3>
@@ -73,11 +73,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Screen Shot](https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot.jpg)
+![Screen Shot](https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot.jpg)
 <br>
-[Screen Shot2](https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot2.jpg)
+![Screen Shot2](https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot2.jpg)
 <br>
-[Screen Shot3](https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot3.jpg)
+![Screen Shot3](https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot3.jpg)
 <br>
 
 Level up your dev setup with my custom dotfiles and easy-to-use installer. Save time, stay organized, and boost your productivity. Give your workflow the upgrade it deserves!
