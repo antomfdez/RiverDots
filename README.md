@@ -141,6 +141,9 @@ Mod Up, change layout to main window up
 Mod Down, change layout to main window down
 Mod Right, change layout to main window right
 Mod Left, change layout to main window reft
+
+Alt+Shift Up, volume up +5%
+Alt+Shift Down, volume down -5%
 ```
 
 ***Scripts:***
