@@ -10,16 +10,18 @@ block = "sound"
 
 [[block]]
 block = "cpu"
+format = "$icon$utilization "
 
 [[block]]
 block = "memory"
+format = "$icon $mem_used_percents.eng(w:2) "
 
 [[block]]
 block = "packages"
 package_manager = ["pacman", "aur"]
 interval = 600
 error_interval = 300
-format = " $icon $pacman + $aur = $total updates available "
+format = "$icon $pacman + $aur = $total updates available "
 format_singular = " $icon $total update available "
 format_up_to_date = " $icon system up to date "
 # aur_command should output available updates to stdout (ie behave as echo -ne "update\n")
@@ -38,9 +40,21 @@ block = "music"
 format = " $icon {$combo.str(max_w:20) $play $next |}"
 player = "spotify"
 
+[[block]]
+block = "taskwarrior"
+interval = 60
+format = " $icon count.eng(w:1) tasks "
+format_singular = " $icon 1 task "
+format_everything_done = ""
+warning_threshold = 10
+critical_threshold = 20
+[[block.filters]]
+name = "today"
+filter = "+PENDING +OVERDUE or +DUETODAY"
 
 [[block]]
 block = "time"
+format = " $icon $timestamp.datetime(f:'%m-%d %R') "
 
 
 [[block]]
@@ -59,4 +73,4 @@ cmd = "reboot"
 confirm_msg = "Are you sure you want to reboot?"
 
 [icons]
-icons = "awesome5"
+icons = "awesome6"

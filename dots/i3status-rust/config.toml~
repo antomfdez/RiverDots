@@ -1,18 +1,20 @@
 [theme]
-theme = "slick"
-[theme.overrides]
-separator = "native"
-alternating_tint_bg = "none"
-alternating_tint_fg = "none"
+theme = "gruvbox-dark"
+#[theme.overrides]
+#separator = "<"
+#alternating_tint_bg = "none"
+#alternating_tint_fg = "none"
 
 [[block]]
 block = "sound"
 
 [[block]]
 block = "cpu"
+format = "$icon$utilization "
 
 [[block]]
 block = "memory"
+format = "$icon $mem_used_percents.eng(w:2) "
 
 [[block]]
 block = "packages"
@@ -59,4 +61,4 @@ cmd = "reboot"
 confirm_msg = "Are you sure you want to reboot?"
 
 [icons]
-icons = "awesome5"
+icons = "awesome6"
