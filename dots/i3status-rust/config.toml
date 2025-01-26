@@ -1,7 +1,7 @@
 [theme]
-theme = "gruvbox-dark"
-#[theme.overrides]
-#separator = "<"
+theme = "ctp-mocha"
+[theme.overrides]
+separator = "native"
 #alternating_tint_bg = "none"
 #alternating_tint_fg = "none"
 
@@ -10,11 +10,11 @@ block = "sound"
 
 [[block]]
 block = "cpu"
-format = " $icon$utilization "
+#format = " $icon$utilization "
 
 [[block]]
 block = "memory"
-format = " $icon $mem_used_percents.eng(w:2) "
+#format = " $icon $mem_used_percents.eng(w:2) "
 
 [[block]]
 block = "packages"
@@ -37,20 +37,8 @@ update = true
 
 [[block]]
 block = "music"
-format = " $icon {$combo.str(max_w:20) $play $next |}"
+format = " $icon {$combo.str(max_w:20) $play $next |} "
 player = "spotify"
-
-[[block]]
-block = "taskwarrior"
-interval = 60
-format = " $icon count.eng(w:1) tasks"
-format_singular = " $icon 1 task"
-format_everything_done = ""
-warning_threshold = 10
-critical_threshold = 20
-[[block.filters]]
-name = "today"
-filter = "+PENDING +OVERDUE or +DUETODAY"
 
 [[block]]
 block = "time"
@@ -59,7 +47,7 @@ format = " $icon $timestamp.datetime(f:'%m-%d %R') "
 
 [[block]]
 block = "menu"
-text = "\uf011  "
+text = " \uf011  "
 [[block.items]]
 display = " -&gt;   Sleep   &lt;-"
 cmd = "systemctl suspend"

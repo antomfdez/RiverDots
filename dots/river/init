@@ -1,29 +1,18 @@
 #!/bin/sh
+export XDG_CURRENT_DESKTOP=river
+riverctl spawn 'dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=river'
 
-# This is the example configuration file for river.
-#
-# If you wish to edit this, you will probably want to copy it to
-# $XDG_CONFIG_HOME/river/init or $HOME/.config/river/init first.
-#
-# See the river(1), riverctl(1), and rivertile(1) man pages for complete
-# documentation.
+riverctl keyboard-layout 'us(dvorak)'
 
-# Note: the "Super" modifier is also known as Logo, GUI, Windows, Mod4, etc.
-
-# Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
-riverctl spawn 'foot --server'
 riverctl spawn dunst
-
-riverctl keyboard-layout canary
-
-wlr-randr --output HDMI-A-1 --mode 1920x1080@143.981
+riverctl spawn 'kanshi -c ~/.config/kanshi/kanshi-profile'
 riverctl spawn i3bar-river
 riverctl spawn 'swaybg -i ~/.river -m fill'
 riverctl rule-add ssd
 
-riverctl map normal Super T spawn footclient
+riverctl map normal Super T spawn alacritty
 
-riverctl map normal Super R spawn '~/.config/rofi/launchers/type-4/launcher.sh'
+riverctl map normal Super R spawn '~/.config/rofi/launchers/type-7/launcher.sh'
 
 riverctl map normal Super C spawn 'grim -g "$(slurp)" - | wl-copy'
 
@@ -175,5 +164,4 @@ riverctl rule-add -app-id "bar" csd
 # Set the default layout generator to be rivertile and start it.
 # River will send the process group of the init executable SIGTERM on exit.
 riverctl default-layout wideriver
-# rivertile -view-padding 6 -outer-padding 6 &
 wideriver --layout right --stack even --count 1 --ratio 0.45 --inner-gaps 10 --outer-gaps 10 &

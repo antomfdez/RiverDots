@@ -3,13 +3,13 @@
 command = "i3status-rs"
 
 # Colors
-background = "#28282880"
+background = "#28282885"
 color = "#ffffffff"
-separator = "#9a8a62ff"
-tag_fg = "#ebdbb2ff"
+separator = "#cdd6f4ff"
+tag_fg = "#cdd6f4ff"
 tag_bg = "#28282800"
 tag_focused_fg = "#282828ff"
-tag_focused_bg = "#ebdbb2ff"
+tag_focused_bg = "#cdd6f4ff"
 tag_urgent_fg = "#282828ff"
 tag_urgent_bg = "#cc241dff"
 tag_inactive_fg = "#ebdbb2ff"
@@ -24,14 +24,14 @@ margin_left = 0
 margin_right = 0
 separator_width = 0
 tags_r = 6
-tags_padding = 10.0
+tags_padding = 15.0
 tags_margin = 0.0
 blocks_r = 6
 blocks_overlap = 1.1
 
 # Misc
-position = "top" # either "top" or "bottom"
-layer = "top" # one of "top", "overlay", "bottom" or "background"
+position = "bottom" # either "top" or "bottom"
+layer = "bottom" # one of "top", "overlay", "bottom" or "background"
 hide_inactive_tags = true
 invert_touchpad_scrolling = true
 show_tags = true
