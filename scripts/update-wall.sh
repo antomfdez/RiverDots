@@ -1,19 +1,24 @@
-# Move and rename your wallpaper to ~/.river
-
 #!/bin/bash
 
-# Ensure file path is provided
+# Ensure an argument (wallpaper path) is provided
 if [ -z "$1" ]; then
-    echo "No wallpaper file provided"
+    echo "Usage: $0 /path/to/wallpaper"
     exit 1
 fi
 
-# Verify the file exists in the current directory
-if [ ! -f "$(pwd)/$1" ]; then
-    echo "File not found: $(pwd)/$1"
+WALLPAPER_PATH="$1"
+
+# Check if the file exists
+if [ ! -f "$WALLPAPER_PATH" ]; then
+    echo "Error: File not found at $WALLPAPER_PATH"
     exit 1
 fi
 
-cp $(pwd)/$1 ~/.river
-echo "Setting up the wall for you..."
-pkill swaybg; riverctl spawn 'swaybg -i ~/.river -m fill'
+# Copy the wallpaper to ~/.river
+WALLPAPER_FILE="$HOME/.river"
+cp "$WALLPAPER_PATH" "$WALLPAPER_FILE"
+
+# Set ~/.labwc as the wallpaper using swaybg
+swaybg -i "$WALLPAPER_FILE" -m fill >/dev/null 2>&1 & disown
+
+echo "Wallpaper $WALLPAPER_PATH set :)"
