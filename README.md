@@ -38,7 +38,7 @@
     An awesome dotfiles to get a fast and customizable river compositor setup!
     <br />
     <br />
-    <a href="https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot.jpg">View Demo</a>
+    <a href="https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot.png">View Demo</a>
     ·
     <a href="https://github.com/antomfdez/RiverDots/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
@@ -73,11 +73,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Screen Shot](https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot.jpg)
+![Screen Shot](https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot.png)
 <br>
-![Screen Shot2](https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot2.jpg)
+![Screen Shot2](https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot2.png)
 <br>
-![Screen Shot3](https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot3.jpg)
+![Screen Shot3](https://github.com/antomfdez/RiverDots/blob/main/repo-assets/screenshot3.png)
 <br>
 
 Level up your dev setup with my custom dotfiles and easy-to-use installer. Save time, stay organized, and boost your productivity. Give your workflow the upgrade it deserves!
